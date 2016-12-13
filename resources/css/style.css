@@ -21,6 +21,15 @@ body {
   overflow-x: hidden;
 }
 
+p {
+  font-size: 90%;
+  line-height: 145%;
+}
+
+.box {
+  padding: 1%;
+}
+
 .clearfix {zoom: 1}
 .clearfix:after {
   content: '.';
@@ -230,6 +239,44 @@ section {
   background-color: #f4f4f4;
 }
 
+.section-nutrition p {
+
+}
+
 .call {
   text-align: center;
+}
+
+/* ----------------------------------- */
+/* ABOUT */
+/* ----------------------------------- */
+
+.author {
+  border-radius: 50%;
+
+}
+
+div .author {
+  width: 200px;
+  height: auto;
+  margin-right: 15px;
+}
+
+.section-about h5 {
+  font-style: italic;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.section-about hr {
+  color: #c94036;
+}
+
+.story {
+  width: 70%;
+}
+
+.feature-logo {
+  width: 100px;
+  height: auto;
 }
