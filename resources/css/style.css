@@ -71,6 +71,17 @@ h3 {
   margin-bottom: 15px;
 }
 
+h2:after {
+  display: block;
+  height: 3px;
+  background-color: #c94036;
+  content: " ";
+  width: 200px;
+  margin: 0 auto;
+  margin-top: 30px;
+}
+
+
 /* ----- BUTTONS ----- */
 
 .btn:link,
@@ -122,7 +133,7 @@ input[type=submit]:active {
 /* ----- ICONS ----- */
 
 .icon-big {
-  width: 200px;
+  width: 100px;
   display: block;
   color: #e67e22;
   margin-bottom: 10px;
@@ -239,10 +250,6 @@ section {
   background-color: #f4f4f4;
 }
 
-.section-nutrition p {
-
-}
-
 .call {
   text-align: center;
 }
@@ -262,14 +269,14 @@ div .author {
   margin-right: 15px;
 }
 
+.author-box {
+  float: left;
+}
+
 .section-about h5 {
   font-style: italic;
   text-align: center;
   margin-top: 20px;
-}
-
-.section-about hr {
-  color: #c94036;
 }
 
 .story {
@@ -279,4 +286,58 @@ div .author {
 .feature-logo {
   width: 100px;
   height: auto;
+}
+
+/* ----------------------------------- */
+/* TESTIMONIALS */
+/* ----------------------------------- */
+
+.section-testimonial {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(../img/testimonial.jpg);
+  background-size: cover;
+  color: white;
+  background-attachment: fixed;
+}
+
+.section-testimonial h2 {
+  color: white;
+}
+
+blockquote {
+  padding: 2%;
+  font-style: italic;
+  line-height: 145%;
+  position: relative;
+  margin-top: 40px;
+}
+
+cite {
+  font-size: 90%;
+  margin-top: 25px;
+  display: block;
+}
+
+blockquote:before {
+    content: "\201C";
+    font-size: 500%;
+    display: block;
+    position: absolute;
+    top: -5px;
+    left: -3px;
+}
+
+blockquote:after {
+  content: "\201D";
+  font-size: 500%;
+  display: block;
+  position: absolute;
+  bottom: 80px;
+  left: 540px;
+}
+
+cite img {
+  height: 80px;
+  border-radius: 50%;
+  margin-right: 10px;
+  vertical-align: middle;
 }
