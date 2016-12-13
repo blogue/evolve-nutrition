@@ -331,8 +331,8 @@ blockquote:after {
   font-size: 500%;
   display: block;
   position: absolute;
-  bottom: 80px;
-  left: 540px;
+  bottom: 60px;
+  right: 50px;
 }
 
 cite img {
@@ -340,4 +340,32 @@ cite img {
   border-radius: 50%;
   margin-right: 10px;
   vertical-align: middle;
+}
+
+/* ----------------------------------- */
+/* PHILOSOPHY */
+/* ----------------------------------- */
+
+.section-philosophy h3 {
+  text-align: center;
+}
+
+.section-philosophy i {
+  text-align: center;
+  font-size: 400%;
+  color: #c94036;
+}
+
+.section-philosophy h3:after {
+  display: block;
+  height: 2px;
+  background-color: #c94036;
+  content: " ";
+  width: 100px;
+  margin: 0 auto;
+  margin-top: 10px;
+}
+
+.philosophy {
+  margin-bottom: 40px;
 }
