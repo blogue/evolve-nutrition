@@ -347,12 +347,11 @@ cite img {
 /* ----------------------------------- */
 
 .section-philosophy i {
-  text-align: center;
-  font-size: 400%;
+  font-size: 500%;
   color: #c94036;
 }
 
-.section-philosophy h3 {
+.philosophy-description {
   text-align: center;
 }
 
@@ -366,11 +365,6 @@ cite img {
   margin-top: 10px;
 }
 
-
-
-.philosophy {
-  margin-bottom: 40px;
-}
 
 /* ----------------------------------- */
 /* SERVICES */
