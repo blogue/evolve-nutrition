@@ -24,15 +24,17 @@ $(document).ready(function() {
     slidesToShow: 1
   });
 
-  /* SIDE CONTACT POPOUT */
+  /* Side contact popout */
   $('.js-wp-testimonial').waypoint(function(direction) {
-    $('.side-contact').show('fade', 500);
+    $('.side-contact').show('fade', 200);
+    $('.side-contact').addClass('animated slideInRight');
   }, {
     offset: '15%'
   });
 
   $('.close').click(function() {
-    $('.side-contact').hide('fade', 500);
+    $('.side-contact').addClass('animated slideOutRight');
+    $('.side-contact').fadeOut(750);
   });
 
 });
