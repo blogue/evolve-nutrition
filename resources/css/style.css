@@ -384,6 +384,14 @@ cite img {
   background-color: #f4f4f4;
 }
 
+.section-services li {
+  font-size: 70%;
+}
+
+.section-services h3 {
+  font-size: 80%;
+}
+
 .plan-box {
   background-color: #fff;
   border-radius: 5px;
