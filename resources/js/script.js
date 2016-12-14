@@ -23,4 +23,16 @@ $(document).ready(function() {
     speed: 800,
     slidesToShow: 1
   });
+
+  /* SIDE CONTACT POPOUT */
+  $('.js-wp-testimonial').waypoint(function(direction) {
+    $('.side-contact').show('fade', 500);
+  }, {
+    offset: '15%'
+  });
+
+  $('.close').click(function() {
+    $('.side-contact').hide('fade', 500);
+  });
+
 });
