@@ -37,4 +37,11 @@ $(document).ready(function() {
     $('.side-contact').fadeOut(750);
   });
 
+  /* Animations */
+  $('.js-wp-philosophy').waypoint(function(direction) {
+    $('.js-philosophy').addClass('animated fadeInUp');
+  }, {
+    offset: '40%'
+  });
+
 });

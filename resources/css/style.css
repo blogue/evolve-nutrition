@@ -366,6 +366,14 @@ cite img {
   margin-top: 10px;
 }
 
+.js-philosophy {
+  opacity: 0;
+  animation-duration: 1s;
+}
+
+.animated {
+  opacity: 1;
+}
 
 /* ----------------------------------- */
 /* SERVICES */
@@ -563,8 +571,8 @@ footer p {
     overflow-x: hidden;
     transition: 0.5s;
     padding-top: 60px;
-    border-top-left-radius: 35%;
-    border-bottom-left-radius: 35%;
+    border-top-left-radius: 5%;
+    border-bottom-left-radius: 5%;
     display: none;
 }
 
