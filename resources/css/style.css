@@ -283,9 +283,24 @@ div .author {
   width: 70%;
 }
 
+.feature-container {
+  text-align: center;
+}
+
 .feature-logo {
   width: 100px;
   height: auto;
+}
+
+.logo2,
+.logo3,
+.logo5 {
+  width: 200px;
+}
+
+.logo3,
+.logo5 {
+  padding-top: 30px;
 }
 
 /* ----------------------------------- */
@@ -574,6 +589,7 @@ footer p {
     border-top-left-radius: 5%;
     border-bottom-left-radius: 5%;
     display: none;
+     box-shadow: -3px 2px 2px 2px rgba(0, 0, 0, 0.4);
 }
 
 .side-contact img:last-of-type {
