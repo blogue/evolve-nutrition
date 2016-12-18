@@ -586,10 +586,10 @@ footer p {
     overflow-x: hidden;
     transition: 0.5s;
     padding-top: 60px;
-    border-top-left-radius: 5%;
-    border-bottom-left-radius: 5%;
+    border-top-left-radius: 200px;
+    border-bottom-left-radius: 200px;
     display: none;
-     box-shadow: -3px 2px 2px 2px rgba(0, 0, 0, 0.4);
+    box-shadow: -3px 2px 2px 2px rgba(0, 0, 0, 0.4);
 }
 
 .side-contact img:last-of-type {
