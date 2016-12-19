@@ -279,6 +279,16 @@ div .author {
   margin-top: 20px;
 }
 
+.section-about h5:last-of-type:after {
+  display: block;
+  height: 2px;
+  background-color: #c94036;
+  content: " ";
+  width: 100px;
+  margin: 0 auto;
+  margin-top: 10px;
+}
+
 .story {
   width: 70%;
 }
@@ -614,4 +624,50 @@ footer p {
 
 .side-contact a {
   margin-top: 10px;
+}
+
+/* ----------------------------------- */
+/* MODAL POP UP */
+/* ----------------------------------- */
+
+.overlay {
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    z-index: 2;
+    top: 0;
+    left: 0;
+    background-color: rgba(0,0,0, 0.8);
+    overflow-x: hidden;
+    display: none;
+}
+
+.modal {
+    position: fixed;
+    z-index: 3;
+    left: 10%;
+    top: 10%;
+    transform: translate(-50%, -50%);
+    width: 80%;
+    height: 80%;
+    overflow: auto;
+    background-color: #fff;
+    border-radius: 25px;
+    display: none;
+}
+
+.modal img {
+  width: 50px;
+  height: auto;
+  position: absolute;
+  right: 10px;
+  top: 10px;
+}
+
+.modal h2 {
+  margin-top: 20px;
+}
+
+.modal label {
+  font-size: 80%;
 }
