@@ -669,5 +669,23 @@ footer p {
 }
 
 .modal label {
-  font-size: 80%;
+  font-size: 100%;
+}
+
+.modal input:last-child {
+  margin-bottom: 20px;
+}
+
+.modal::-webkit-scrollbar {
+    width: 12px;
+}
+
+.modal::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+   border-radius: 10px;
+}
+
+.modal::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.5);
 }
