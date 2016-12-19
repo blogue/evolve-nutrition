@@ -9,6 +9,10 @@
   }
 
   .row { padding: 0 2%; }
+
+  .slick-arrow {
+    margin: 0 1.5%;
+  }
 }
 
 /* Small tablet to big tablet: 768px to 1023px */
@@ -27,6 +31,10 @@
 
   .plan-price {
     font-size: 250%;
+  }
+
+  .slick-arrow {
+    margin: 0 2%;
   }
 }
 
@@ -54,7 +62,7 @@
   h2 { font-size: 150%; }
 
   .slick-arrow {
-    margin: 0 2.5%;
+    margin: 0 2%;
   }
 }
 

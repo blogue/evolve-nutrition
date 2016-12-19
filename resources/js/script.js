@@ -16,6 +16,15 @@ $(document).ready(function() {
     });
   });
 
+  /* Sticky Nav */
+  $('.js-wp-nutrition').waypoint(function(direction) {
+    if (direction == "down") {
+      $('nav').addClass('sticky');
+    } else {
+      $('nav').removeClass('sticky');
+    }
+  }, { offset: '60px' });
+
   /* Carousel */
   $('.carousel-slides').slick({
     dots: true,
