@@ -93,6 +93,7 @@ input[type=submit] {
   text-decoration: none;
   border-radius: 200px;
   color: #fff;
+  -webkit-transition: background-color 0.5s, border 0.5s, color 0.5s;
   transition: background-color 0.5s, border 0.5s, color 0.5s;
 }
 
@@ -160,6 +161,7 @@ a:visited {
   color: #c94036;
   text-decoration: none;
   border-bottom: 1px solid #c94036;
+  -webkit-transition: border-bottom 0.5s, color 0.5s;
   transition: border-bottom 0.5s, color 0.5s;
 }
 
@@ -175,6 +177,7 @@ a:active {
 /* ----------------------------------- */
 
 header {
+  background-image: -webkit-linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.3)), url(../img/header.jpg);
   background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.3)), url(../img/header.jpg);
   background-size: cover;
   background-position: center;
@@ -187,7 +190,8 @@ header {
   width: 1140px;
   top: 50%;
   left: 50%;
-  transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
 }
 
 .logo {
@@ -220,6 +224,7 @@ header {
   text-transform: uppercase;
   font-size: 90%;
   border-bottom: 2px solid transparent;
+  -webkit-transition: border-bottom 0.5s;
   transition: border-bottom 0.5s;
 }
 
@@ -367,6 +372,7 @@ div .author {
 /* ----------------------------------- */
 
 .section-testimonial {
+  background-image: -webkit-linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(../img/testimonial.jpg);
   background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(../img/testimonial.jpg);
   background-size: cover;
   color: white;
@@ -442,7 +448,8 @@ cite img {
 
 .js-philosophy {
   opacity: 0;
-  animation-duration: 1s;
+  -webkit-animation-duration: 1s;
+          animation-duration: 1s;
 }
 
 .animated {
@@ -604,6 +611,7 @@ footer {
 .ion-social-twitter,
 .ion-social-googleplus,
 .ion-social-instagram {
+  -webkit-transition: color 0.5s;
   transition: color 0.5s;
 }
 
@@ -643,6 +651,7 @@ footer p {
     top: 10%;
     right: 0;
     overflow-x: hidden;
+    -webkit-transition: 0.5s;
     transition: 0.5s;
     padding-top: 60px;
     border-top-left-radius: 200px;
@@ -696,7 +705,8 @@ footer p {
     z-index: 3;
     left: 10%;
     top: 10%;
-    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
     width: 80%;
     height: 80%;
     overflow: auto;
