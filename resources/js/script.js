@@ -25,12 +25,45 @@ $(document).ready(function() {
     }
   }, { offset: '60px' });
 
+
   /* Carousel */
   $('.carousel-slides').slick({
     dots: true,
     infinite: true,
     speed: 800,
     slidesToShow: 1
+  });
+
+  /* Mobile Nav */
+
+  $('.js-nav-icon').click(function() {
+    var nav = $('.main-nav');
+    var icon = $('.js-nav-icon i');
+
+    nav.slideToggle(200);
+    if (icon.hasClass('ion-navicon-round')) {
+      icon.addClass('ion-close-round');
+      icon.removeClass('ion-navicon-round');
+    } else {
+      icon.addClass('ion-navicon-round');
+      icon.removeClass('ion-close-round');
+    }
+  });
+
+  $(window).resize(function(){
+    var nav = $('.js-main-nav');
+    var icon = $('.js-nav-icon i');
+
+    if ($(window).width() > 888){
+      nav.css("display", "block");
+      icon.addClass('ion-close-round');
+      icon.removeClass('ion-navicon-round');
+    } else {
+    nav.css("display", "none");
+    icon.addClass('ion-navicon-round');
+    icon.removeClass('ion-close-round');
+    }
+
   });
 
   /* Side contact popout */

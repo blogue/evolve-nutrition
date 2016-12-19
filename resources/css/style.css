@@ -228,6 +228,22 @@ header {
   border-bottom: 2px solid #c94036;
 }
 
+
+/* Mobile Nav */
+
+.mobile-nav-icon {
+  float: right;
+  margin-top: 30px;
+  cursor: pointer;
+  display: none;
+  border: transparent;
+}
+
+.mobile-nav-icon i {
+  font-size: 200%;
+  color: #fff;
+}
+
 /* ----------------------------------- */
 /* STICKY NAV */
 /* ----------------------------------- */
