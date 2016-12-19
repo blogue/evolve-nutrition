@@ -44,17 +44,27 @@ $(document).ready(function() {
   });
 
   /* Contact Modal */
-  $('.contact-btn').click(function() {
-    closePopout();
+
+  function showModal() {
     $('.overlay').show('fade', 1500);
     $('.modal').show('fade', 200);
     $('.modal').addClass('animated bounceInUp');
+  }
+
+  $('.contact-btn').click(function() {
+    closePopout();
+    showModal();
   });
 
   $('#close-modal').click(function() {
     $('.overlay').hide('fade', 300);
     $('.modal').addClass('slideOutDown');
     $('.modal').hide('fade', 1400);
+    setTimeout(function() { $('.modal').removeClass('slideOutDown');}, 2000);
+  });
+
+  $('.consultation').click(function() {
+    showModal();
   });
 
   /* Animations */
