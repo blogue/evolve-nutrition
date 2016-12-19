@@ -28,12 +28,13 @@ $(document).ready(function() {
   $('.js-wp-testimonial').waypoint(function(direction) {
     $('.side-contact').show('fade', 200);
     $('.side-contact').addClass('animated slideInRight');
+    this.destroy();
   }, {
     offset: '15%'
   });
 
   $('.close').click(function() {
-    $('.side-contact').addClass('animated slideOutRight');
+    $('.side-contact').addClass('slideOutRight');
     $('.side-contact').fadeOut(750);
   });
 
