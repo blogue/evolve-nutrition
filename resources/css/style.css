@@ -448,12 +448,14 @@ cite img {
 
 .js-philosophy {
   opacity: 0;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
   -webkit-animation-duration: 1s;
           animation-duration: 1s;
 }
 
 .animated {
   opacity: 1;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
 }
 
 /* ----------------------------------- */
