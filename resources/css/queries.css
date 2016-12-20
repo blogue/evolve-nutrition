@@ -7,6 +7,9 @@
     padding: 0 2%;
   }
 
+  header,
+  .section-testimonial { background-attachment: initial; }
+
   .row { padding: 0 2%; }
 
   .slick-arrow {
