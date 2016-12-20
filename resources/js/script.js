@@ -88,9 +88,8 @@ $(document).ready(function() {
   /* Contact Modal */
 
   function showModal() {
-    $('.overlay').show('fade', 1500);
-    $('.modal').show('fade', 200);
-    $('.modal').addClass('animated bounceInUp');
+    $('.overlay').addClass('animated fadeIn overlay-fadeIn');
+    $('.modal').addClass('animated bounceInUp modal-fadeIn');
   }
 
   $('.contact-btn').click(function() {
@@ -99,10 +98,9 @@ $(document).ready(function() {
   });
 
   $('#close-modal').click(function() {
-    $('.overlay').hide('fade', 300);
+    $('.overlay').addClass('fadeOut')
     $('.modal').addClass('slideOutDown');
-    $('.modal').hide('fade', 1400);
-    setTimeout(function() { $('.modal').removeClass('slideOutDown');}, 2000);
+    setTimeout(function() { $('.modal').removeClass('slideOutDown bounceInUp modal-fadeIn');   $('.overlay').removeClass('fadeOut fadeIn overlay-fadeIn');}, 2000);
   });
 
   $('.consultation').click(function() {

@@ -694,17 +694,24 @@ footer p {
     height: 100%;
     width: 100%;
     position: fixed;
-    z-index: 2;
+    z-index: -1;
     top: 0;
     left: 0;
     background-color: rgba(0,0,0, 0.8);
     overflow-x: hidden;
-    display: none;
+    -webkit-animation-duration: 1.5s;
+            animation-duration: 1.5s;
+    opacity: 0;
+}
+
+.overlay-fadeIn {
+  z-index: 2;
+  opacity: 1;
 }
 
 .modal {
     position: fixed;
-    z-index: 3;
+    z-index: -1;
     left: 10%;
     top: 10%;
     -webkit-transform: translate(-50%, -50%);
@@ -714,7 +721,14 @@ footer p {
     overflow: auto;
     background-color: #fff;
     border-radius: 25px;
-    display: none;
+    -webkit-animation-duration: 0.2s;
+            animation-duration: 0.2s;
+    opacity: 0;
+}
+
+.modal-fadeIn {
+  z-index: 3;
+  opacity: 1;
 }
 
 .modal img {
