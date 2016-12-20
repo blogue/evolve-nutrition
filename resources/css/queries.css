@@ -41,6 +41,10 @@
   .slick-arrow {
     margin: 0 2%;
   }
+
+  .contact-copy h4 {
+    margin-left: 120px;
+  }
 }
 
 /* Small phones to small tablets: 481px to 767px */
@@ -103,6 +107,11 @@
   .slick-arrow {
     margin: 0 2%;
   }
+
+
+    .contact-copy h4 {
+      margin-left: 120px;
+    }
 }
 
 
@@ -135,4 +144,36 @@
   .slick-arrow {
     margin: 0 2.5%;
   }
+
+  .side-contact {
+      height: 131.25px;
+      width: 300px;
+      top: 12%;
+  }
+
+  .side-contact img:last-of-type {
+    height:80px;
+    border-radius: 100%;
+    margin: -35px 10px 0 10px;
+  }
+
+  .side-contact img:first-of-type {
+    height: 20px;
+    right: 10px;
+    top: 10px;
+  }
+
+  .contact-copy {
+    margin-top: -30px;
+  }
+
+  .contact-copy h4 {
+    margin-left: 100px;
+  }
+
+
+  .side-contact a {
+    margin-top: 5px;
+  }
+
 }
