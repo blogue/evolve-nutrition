@@ -17,10 +17,10 @@
 /* Small tablet to big tablet: 768px to 1023px */
 @media only screen and (max-width: 1023px) {
   body { font-size: 18px; }
-  section {
-    padding: 60px 0;
-    background-attachment: initial;
-  }
+  section { padding: 60px 0; }
+
+  header,
+  .section-testimonial { background-attachment: initial; }
 
   .feature-logo {
     max-width: 150px;
