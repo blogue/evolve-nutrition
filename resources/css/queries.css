@@ -47,8 +47,26 @@
   }
 }
 
-/* Small phones to small tablets: 481px to 767px */
+/* Large tablets */
 @media only screen and (max-width: 888px) {
+  .logo {
+    width: 180px;
+    height: auto;
+  }
+
+  .main-nav li {
+    display: inline-block;
+    margin-left: 20px;
+  }
+
+  .section-philosophy .col {
+    width: 100%;
+    margin: 0 0 4% 0;
+  }
+}
+
+/* Small phones to small tablets: 481px to 767px */
+@media only screen and (max-width: 767px) {
   body { font-size: 16px; }
 
   section { padding: 30px 0; }
@@ -59,6 +77,11 @@
   .col {
     width: 100%;
     margin: 0 0 4% 0;
+   }
+
+   .logo {
+     width: 150px;
+     height: auto;
    }
 
   .feature-logo {
