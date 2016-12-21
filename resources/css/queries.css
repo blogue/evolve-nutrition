@@ -108,10 +108,11 @@
     margin: 0 2%;
   }
 
+  .contact-copy h4 {
+    margin-left: 120px;
+  }
 
-    .contact-copy h4 {
-      margin-left: 120px;
-    }
+  .icon-big { margin-left: 42.5%; }
 }
 
 
@@ -128,6 +129,8 @@
   header h1 {
     font-size: 150%;
   }
+
+  .icon-big { margin-left: 37.5%; }
 
   .modal img {
     width: 30px;

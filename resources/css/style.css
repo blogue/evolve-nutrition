@@ -304,6 +304,13 @@ section {
   background-color: #f4f4f4;
 }
 
+.section-nutrition h3 {
+  text-align: center;
+}
+
+
+.icon-big { margin-left: 35%; }
+
 .call {
   text-align: center;
 }
@@ -352,14 +359,8 @@ div .author {
 }
 
 .feature-logo {
-  width: 100px;
+  max-width: 100px;
   height: auto;
-}
-
-.logo2,
-.logo3,
-.logo5 {
-  width: 200px;
 }
 
 .logo3,
