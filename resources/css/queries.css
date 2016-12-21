@@ -61,6 +61,11 @@
     margin: 0 0 4% 0;
    }
 
+   .logo {
+     width: 150px;
+     height: auto;
+   }
+
   .feature-logo {
     max-width: 80px;
   }
