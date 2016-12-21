@@ -63,6 +63,7 @@
     width: 100%;
     margin: 0 0 4% 0;
   }
+
 }
 
 /* Small phones to small tablets: 481px to 767px */
@@ -74,7 +75,8 @@
   .row,
   .hero-text-box { padding: 0 4%; }
 
-  .col {
+  .section-services .col,
+  .section-nutrition .col {
     width: 100%;
     margin: 0 0 4% 0;
    }
@@ -85,7 +87,7 @@
    }
 
   .feature-logo {
-    max-width: 80px;
+    max-width: 100px;
   }
 
   .main-nav { display: none; }
@@ -155,6 +157,8 @@
 
   .icon-big { margin-left: 37.5%; }
 
+  .modal { margin-top: 15px; }
+
   .modal img {
     width: 30px;
     height: auto;
@@ -197,9 +201,10 @@
     margin-left: 100px;
   }
 
-
   .side-contact a {
     margin-top: 5px;
   }
+
+  .feature-logo { max-width: 200px; }
 
 }
